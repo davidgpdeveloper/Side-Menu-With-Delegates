@@ -60,9 +60,6 @@
 			children = (
 				67C13EBC209DC1B2004494E6 /* .gitignore */,
 				67C13EBA209DBFD3004494E6 /* README.md */,
-				671F2DC72080C6D000333F41 /* Third.storyboard */,
-				671F2DC52080C6C200333F41 /* Second.storyboard */,
-				671F2DC22080C6B400333F41 /* First.storyboard */,
 				5A2DAE871F37C09800D0182A /* Side Menu */,
 				5A2DAE861F37C09800D0182A /* Products */,
 			);
@@ -81,15 +78,26 @@
 			children = (
 				B55B9F6A1FB1A9EF003C2747 /* Support */,
 				5A2DAE8A1F37C09800D0182A /* ContainerVC.swift */,
+				67C13EBE209DC239004494E6 /* Views */,
 				5A2DAE9A1F37C2FC00D0182A /* SideMenuVC.swift */,
 				5A2DAE941F37C09800D0182A /* Info.plist */,
 				5A2DAE9C1F37C59100D0182A /* MainVC.swift */,
 				B5A400DF1FA8C912002EED53 /* ViewController.swift */,
-				5A2DAE8C1F37C09800D0182A /* Main.storyboard */,
 				B55B9F6B1FB1C96E003C2747 /* SecondViewController.swift */,
 				B55B9F6D1FB1D6AE003C2747 /* BaseViewController.swift */,
 			);
 			path = "Side Menu";
+			sourceTree = "<group>";
+		};
+		67C13EBE209DC239004494E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A2DAE8C1F37C09800D0182A /* Main.storyboard */,
+				671F2DC72080C6D000333F41 /* Third.storyboard */,
+				671F2DC52080C6C200333F41 /* Second.storyboard */,
+				671F2DC22080C6B400333F41 /* First.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		B55B9F6A1FB1A9EF003C2747 /* Support */ = {
