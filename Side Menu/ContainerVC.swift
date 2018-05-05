@@ -2,11 +2,6 @@
 //  ViewController.swift
 //  Side Menu
 //
-//  Created by Kyle Lee on 8/6/17.
-//  Copyright © 2017 Kyle Lee. All rights reserved.
-//
-//
-//
 //
 /**
  This is the view containers controller, side menu and main view.

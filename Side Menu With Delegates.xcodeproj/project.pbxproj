@@ -23,7 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5A2DAE851F37C09800D0182A /* Side Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Side Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2DAE851F37C09800D0182A /* Side Menu With Delegates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Side Menu With Delegates.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2DAE881F37C09800D0182A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A2DAE8A1F37C09800D0182A /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
 		5A2DAE8D1F37C09800D0182A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		5A2DAE861F37C09800D0182A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A2DAE851F37C09800D0182A /* Side Menu.app */,
+				5A2DAE851F37C09800D0182A /* Side Menu With Delegates.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,9 +99,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5A2DAE841F37C09800D0182A /* Side Menu */ = {
+		5A2DAE841F37C09800D0182A /* Side Menu With Delegates */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A2DAE971F37C09800D0182A /* Build configuration list for PBXNativeTarget "Side Menu" */;
+			buildConfigurationList = 5A2DAE971F37C09800D0182A /* Build configuration list for PBXNativeTarget "Side Menu With Delegates" */;
 			buildPhases = (
 				5A2DAE811F37C09800D0182A /* Sources */,
 				5A2DAE821F37C09800D0182A /* Frameworks */,
@@ -112,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = "Side Menu";
+			name = "Side Menu With Delegates";
 			productName = "Side Menu";
-			productReference = 5A2DAE851F37C09800D0182A /* Side Menu.app */;
+			productReference = 5A2DAE851F37C09800D0182A /* Side Menu With Delegates.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5A2DAE801F37C09800D0182A /* Build configuration list for PBXProject "Side Menu" */;
+			buildConfigurationList = 5A2DAE801F37C09800D0182A /* Build configuration list for PBXProject "Side Menu With Delegates" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -145,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5A2DAE841F37C09800D0182A /* Side Menu */,
+				5A2DAE841F37C09800D0182A /* Side Menu With Delegates */,
 			);
 		};
 /* End PBXProject section */
@@ -377,7 +377,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5A2DAE801F37C09800D0182A /* Build configuration list for PBXProject "Side Menu" */ = {
+		5A2DAE801F37C09800D0182A /* Build configuration list for PBXProject "Side Menu With Delegates" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A2DAE951F37C09800D0182A /* Debug */,
@@ -386,7 +386,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A2DAE971F37C09800D0182A /* Build configuration list for PBXNativeTarget "Side Menu" */ = {
+		5A2DAE971F37C09800D0182A /* Build configuration list for PBXNativeTarget "Side Menu With Delegates" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A2DAE981F37C09800D0182A /* Debug */,
