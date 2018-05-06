@@ -15,13 +15,14 @@ var delegateTmp: BaseViewControllerDelegate! = nil
 protocol BaseViewControllerDelegate {
     // Function that the delegate of BaseViewController must implement for open the sideMenu.
     func openMenu()
+    var isMenuOpen: Bool { get }
 }
 
 class BaseViewController: UIViewController {
     // Delegate object for call the functions of the delegate
-    var delegate: BaseViewControllerDelegate! = nil
+    var delegate: BaseViewControllerDelegate?
     // SideMenudelegate to use the Delegate functions of open other viewcontrollers from SideMenu
-    var sideMenuDelegate: SideMenuDelegate! = nil
+    var sideMenuDelegate: SideMenuDelegate?
     // Gesture to set the the view or remove from view
     var swipeRight: UISwipeGestureRecognizer! = nil
 
@@ -75,18 +76,21 @@ class BaseViewController: UIViewController {
 
     // Function that is called when push the hamburguer button
     @objc func openMenu(sender: UIButton) {
-        delegate.openMenu()
+        delegate?.openMenu()
         view.addGestureRecognizer(swipeRight)
     }
 
     // Function that is called when swipe from right to left
     @objc func closeSideMenu(sender: Any) {
-        delegate.openMenu()
+        delegate?.openMenu()
         view.removeGestureRecognizer(swipeRight)
     }
 
     // Function that is called when push the back arrow
     @objc func backTapped(sender: UIButton) {
+        if let isOpen = delegate?.isMenuOpen, isOpen == true {
+            delegate?.openMenu()
+        }
         self.navigationController?.popToRootViewController(animated: true)
     }
 
@@ -108,7 +112,7 @@ class BaseViewController: UIViewController {
 // Delegate actions to perform segues
 extension BaseViewController: SideMenuDelegate {
     func makeSegue(_ option: Int) {
-        delegate.openMenu()
+        delegate?.openMenu()
         switch option {
         case 0: showProfile()
         case 1: showSettings()

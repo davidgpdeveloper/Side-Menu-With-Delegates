@@ -73,4 +73,8 @@ extension ContainerVC: BaseViewControllerDelegate {
     func openMenu() {
         toggleSideMenu()
     }
+    
+    var isMenuOpen: Bool {
+        return sideMenuOpen
+    }
 }
